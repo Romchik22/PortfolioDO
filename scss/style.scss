@@ -1,0 +1,59 @@
+$mainColor: #3F51B5;
+$colorHeader: white;
+$menuColor: #616161;
+
+body {
+	font-size: 16px !important;
+	background-color: #F5F5F5 !important;
+}
+.logo {
+	text-align: right;
+	background-color:$mainColor;
+	padding: 1.5em 1em;
+}
+
+.leftblock {
+	padding: 0 !important;
+	background-color: white;
+	height: 100vh;
+	box-shadow:2px 0 4px 0 rgba(0,0,0,.14),4px 0 5px -1px rgba(0,0,0,.2);
+}
+.logo .name {
+	font-weight: normal;
+	margin: 0;
+	color: $colorHeader;
+}
+
+.logo .name span {
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+
+.logo h2 {
+	font-weight: lighter;
+	color: #FF1744;
+	font-size: 1.125em;
+	margin: 0;
+}
+.menu {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+.menu img, .menu span{
+	margin: 0.5em 0 0.5em 1.5em;
+	vertical-align: middle;
+	color: $menuColor;
+}
+
+.menu a:hover {
+	text-decoration: none; 
+}
+
+.rightblock{
+	height: 700px;
+	
+}
+.rightblock h1{
+text-align: center;
+}
