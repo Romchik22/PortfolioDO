@@ -16,8 +16,9 @@ body {
 .leftblock {
 	padding: 0;
 	background-color: white;
-	height: 100vh;
+	min-height: 100vh;
 	box-shadow:2px 0 4px 0 rgba(0,0,0,.14),4px 0 5px -1px rgba(0,0,0,.2);
+	position: fixed;
 }
 .logo .name {
 	font-weight: normal;
@@ -51,22 +52,21 @@ body {
 
 .rightblock {
 	padding: 0;
+	float:right;
 }
 .head{
 	height: 7.575em;
 	background-color: $mainColor;
-	vertical-align: baseline;
 }
 .head h1 {
 	float: right;
 	font-size: 3.625em;
 	font-weight: normal;
 	color: $colorHeader;
-	margin:0.375em 1em 0 0;
-	vertical-align: baseline;
+	margin:0.375em 0.5em 0 0;
 }
 
-.skill {
+.wrapper {
 	padding: 1em;
 }
 .sectionHeader {
@@ -88,4 +88,35 @@ hr {
 article{
 	margin-bottom: 2em;
 }
+.expariance-card {
+	padding-left: 0.75em;
+	padding-top: 1em;
+	box-shadow:0 1px 4px 0 rgba(0,0,0,.14),0 2px 1px -2px rgba(0,0,0,.2),0 0 3px 0 rgba(0,0,0,.12);
+}
+.expariance-card h2 {
+	color: #616161;
+	text-decoration: underline;
+	display: inline;
+}
 
+.expariance-card h2:hover {
+	color: $mainColor;
+}
+.expariance-card img {
+	size: 1em;
+}
+.period-work {
+	font-size: 1.25em;
+	font-weight: bold;
+	float: right;
+	color: #616161;
+	padding-right: 0.75em;
+}
+
+.position, .responsability {
+	margin-top: 0.5em;
+}
+.position span{
+	vertical-align: middle;
+	font-size: 1.25em;
+}

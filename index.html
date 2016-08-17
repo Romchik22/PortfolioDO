@@ -2,30 +2,164 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Maksik9x</title>
 </head>
 <body>
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-xs-1 col-md-2 leftblock">
+		<div class="col-xs-2 col-md-2 leftblock">
 			<div class="logo">
 			<h1 class="name"><span>Do</span> Ngok Kuen</h1>
 			<h2>PHP Developer</h2>
 		</div>
 		<nav>
 		<ul class="menu">
-			<a href=""><li><img src="icons/Superman-24.png"><span>Skills</span></li></a>
-			<a href=""><li><img src="icons/Iceberg-24.png"><span>Experiance</span></li></a>
-			<a href=""><li><img src="icons/Book_Shelf-24.png"><span>Projects</span></li></a>
-			<a href=""><li><img src="icons/Einstein-24.png"><span>Education</span></li></a>
-			<a href=""><li><img src="icons/Office_Phone-24.png"><span>Contact</span></li></a>
+			<a href=""><li><img class="icon" src="icons/Superman-24.png"><span class="small">Skills</span></li></a>
+			<a href=""><li><img class="icon" src="icons/Iceberg-24.png"><span class="big">Experiance</span></li></a>
+			<a href=""><li><img class="icon" src="icons/Book_Shelf-24.png"><span class="small">Projects</span></li></a>
+			<a href=""><li><img class="icon" src="icons/Einstein-24.png"><span class="medium">Education</span></li></a>
+			<a href=""><li><img class="icon" src="icons/Office_Phone-24.png"><span class="small">Contact</span></li></a>
 		</ul>
 		</nav>
 			</div>
-		<div class="col-xs-11 col-md-10 rightblock"><h1>g</h1></div>
+		<div class="col-xs-10 col-md-10 rightblock">
+			<section>
+				<div id="skills" class="head">
+					<h1>Skills</h1>
+				</div>
+				<section class="wrapper">
+					<hr>
+					<h1 class="sectionHeader">Language</h1>
+					<article>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/php-icon.jpg">
+							</div>
+							<span class="skill-card-footer">PhP</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/js-icon.png">
+							</div>
+							<span class="skill-card-footer">JavaScript</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/css-icon.png">
+							</div>
+							<span class="skill-card-footer">CSS</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/html-icon.png">
+							</div>
+							<span class="skill-card-footer">HTML</span>
+						</div>
+					</article>
+					<hr>
+					<h1 class="sectionHeader">Framework</h1>
+					<article>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/laravel-icon.jpg">
+							</div>
+							<span class="skill-card-footer">Laravel</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/zend-icon.gif">
+							</div>
+							<span class="skill-card-footer">Zend</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/zend2-icon.png">
+							</div>
+							<span class="skill-card-footer">Zend 2</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/yii-2-icon.jpg">
+							</div>
+							<span class="skill-card-footer">Yii 2</span>
+						</div>
+					</article>
+					<hr>
+					<h1 class="sectionHeader">Tools</h1>
+					<article>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/gulp-icon.png">
+							</div>
+							<span class="skill-card-footer">Gulp</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/grunt-icon.jpg">
+							</div>
+							<span class="skill-card-footer">Grunt</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/webpack-icon.png">
+							</div>
+							<span class="skill-card-footer">WebPack</span>
+						</div>
+					</article>
+					<hr>
+					<h1 class="sectionHeader">Data</h1>
+					<article>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/Sql-icon.jpg">
+							</div>
+							<span class="skill-card-footer">Sql</span>
+						</div>
+						<div class="skill-card">
+							<div class="skill-card-image">
+								<img src="icons/mongo-icon.jpg">
+							</div>
+							<span class="skill-card-footer">MongoDB</span>
+						</div>
+					</article>
+				</section>
+				<section>
+					<div id="experiancies" class="head">
+						<h1>Expariance</h1>
+					</div>
+					<section class="wrapper">
+						<div class="expariance-card">
+							<a href="http://www.nixsolutions.com/"><h2>Nix-Solutions</h2></a>
+							<span class="period-work">2015-Today</span>
+							<div class="position">
+							<span"><img src="icons/White-14.png"></span>
+							<span>Junior PHP Developer</span>
+							</div>
+							<div class="responsability">
+							<span><img src="icons/Lamp-14.png"></span>
+							<span>Work through all aspects of software development lifecycle to create robust, rock-solid web applications</span>
+							</div>
+							<div class="responsability">
+							<span><img src="icons/Lamp-14.png"></span>
+							<span>Interact with Technical and Creative teams to understand scope of projects</span>
+							</div>
+							<div class="responsability">
+							<span><img src="icons/Lamp-14.png"></span>
+							<span>Communicate in clear and structured way with clients, colleagues and managers</span>
+							</div>
+							<div class="responsability">
+							<span><img src="icons/Lamp-14.png"></span>
+							<span>Active in building and maintaining the team spirit;</span>
+							</div>
+						</div>
+					</section>
+				</section>
+			</section>
+
+		</div>
 	</div>
 </div>
 </body>
