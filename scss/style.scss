@@ -3,17 +3,18 @@ $colorHeader: white;
 $menuColor: #616161;
 
 body {
-	font-size: 16px !important;
-	background-color: #F5F5F5 !important;
+	font-family: Roboto sans-serif;
+	font-size: 16px;
+	background-color: #F5F5F5;
 }
 .logo {
 	text-align: right;
 	background-color:$mainColor;
-	padding: 1.5em 1em;
+	padding: 0.1em 1em;
 }
 
 .leftblock {
-	padding: 0 !important;
+	padding: 0;
 	background-color: white;
 	height: 100vh;
 	box-shadow:2px 0 4px 0 rgba(0,0,0,.14),4px 0 5px -1px rgba(0,0,0,.2);
@@ -32,28 +33,59 @@ body {
 .logo h2 {
 	font-weight: lighter;
 	color: #FF1744;
-	font-size: 1.125em;
+	font-size: 1.25em;
 	margin: 0;
 }
 .menu {
 	list-style: none;
 	padding-left: 0;
 	margin: 0;
+	
 }
 .menu img, .menu span{
 	margin: 0.5em 0 0.5em 1.5em;
 	vertical-align: middle;
 	color: $menuColor;
+	position: relative;
 }
 
-.menu a:hover {
-	text-decoration: none; 
+.rightblock {
+	padding: 0;
+}
+.head{
+	height: 7.575em;
+	background-color: $mainColor;
+	vertical-align: baseline;
+}
+.head h1 {
+	float: right;
+	font-size: 3.625em;
+	font-weight: normal;
+	color: $colorHeader;
+	margin:0.375em 1em 0 0;
+	vertical-align: baseline;
 }
 
-.rightblock{
-	height: 700px;
-	
+.skill {
+	padding: 1em;
 }
-.rightblock h1{
-text-align: center;
+.sectionHeader {
+	font-size: 1.25em;;
 }
+hr {
+	margin-top: 0;
+}
+
+.skill-card {
+	text-align: center;
+	display: inline-block;
+	background-color: $colorHeader;
+	margin-right: 1em;
+	margin-top: 1em;
+	box-shadow:2px 4px 4px 0 rgba(0,0,0,.14),4px 4px 5px -1px rgba(0,0,0,.2);
+}
+
+article{
+	margin-bottom: 2em;
+}
+
